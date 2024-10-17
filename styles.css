@@ -32,6 +32,7 @@ body {
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.3s;
+    position: relative;
 }
 
 .box img {
@@ -42,6 +43,16 @@ body {
 
 .box:hover {
     transform: scale(1.05);
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
 }
 
 .about-me {
